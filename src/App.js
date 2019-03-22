@@ -4,11 +4,13 @@ import SideNav from "./components/SideNav";
 import Dashboard from "./components/Dashboard"
 import { BrowserRouter as Router, Route } from "react-router-dom"
 
-let Tables = () =><div>Tables Stuff</div>
+let Tables = () => <div>Tables Stuff</div>
+
 let Charts = () =><div>Charts Stuff</div>
 //these are components!
 
 let Things = () =><div>Things Stuff</div>
+let thingsNTables = ()=> <div><Things/><Tables/></div>
 
 function App() {
   return (
